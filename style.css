@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+
+}
+
+.navbar {
+    background-color: #212121; /* Set background to white */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+    border: 1px solid #eceff133;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* Set text color to black */
+    text-decoration: none;
+    position: relative;
+    margin: 0 15px; /* Add margin to space out top links */
+}
+
+
+
+/* Add this animation */
+.nav-buttons a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: #ffffff; /* Set underline color to black */
+    transform: scaleX(0); /* Initial scale to 0 */
+    transform-origin: center;
+    transition: transform 0.3s ease; /* Animation duration and easing */
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1); /* Scale to 100% on hover */
+}
+
+/* Logo styles */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin-right: auto; /* Push logo to the left */
+}
+
+/* Menu container */
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-buttons a:hover {
+    color: #969494;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85;
+    --clr-5: #637c54;
+  }
+
+
+.cards {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+
+.main {
+    max-width: 75rem;
+    padding: 3em 1.5em;
+    display: grid;
+    place-items: center;
+}
+  
+.cards__heading {
+    font-weight: 600;
+    font-size: 2.25em;
+    margin-bottom: 0.75em;
+    text-align: center;
+    color: #eceff1;
+}
+  
+.cards {
+    position: relative;
+}
+  
+.cards__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+  }
+  
+.card {
+    --flow-space: 0.5em;
+    --hsl: var(--hue), var(--saturation), var(--lightness);
+    flex: 1 1 14rem;
+    padding: 1.5em 2em;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    align-items: start;
+    gap: 1.25em;
+    color: #eceff1;
+    background-color: #2b2b2b;
+    border: 1px solid #eceff133;
+    border-radius: 15px;
+}
+  
+.card:nth-child(1) {
+    --hue: 165;
+    --saturation: 82.26%;
+    --lightness: 51.37%;
+}
+  
+.card:nth-child(2) {
+    --hue: 291.34;
+    --saturation: 95.9%;
+    --lightness: 61.76%;
+}
+  
+.card:nth-child(3) {
+    --hue: 338.69;
+    --saturation: 100%;
+    --lightness: 48.04%;
+}
+  
+.card__bullets {
+    line-height: 1.4;
+}
+  
+.card__bullets li::before {
+    display: inline-block;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='16' title='check' fill='%23dddddd'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z' /%3E%3C/svg%3E");
+    transform: translatey(0.25ch);
+    margin-right: 1ch;
+}
+  
+.card__heading {
+    font-size: 1.05em;
+    font-weight: 600;
+}
+  
+.card__price {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+  
+.flow > * + * {
+    margin-top: var(--flow-space, 1.25em);
+}
+  
+.cta {
+    display: block;
+    align-self: end;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d0d0d;
+    padding: 0.7em;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    user-select: none;
+    opacity: var(--opacity, 0);
+    -webkit-mask: radial-gradient(
+      25rem 25rem at var(--x) var(--y),
+      #000 1%,
+      transparent 50%
+    );
+    mask: radial-gradient(
+      25rem 25rem at var(--x) var(--y),
+      #000 1%,
+      transparent 50%
+    );
+    transition: 400ms mask ease;
+    will-change: mask;
+}
+  
+.overlay .card {
+    background-color: hsla(var(--hsl), 0.15);
+    border-color: hsla(var(--hsl), 1);
+    box-shadow: 0 0 0 1px inset hsl(var(--hsl));
+}
+  
+.overlay .cta {
+    display: block;
+    grid-row: -1;
+    width: 100%;
+    background-color: hsl(var(--hsl));
+    box-shadow: 0 0 0 1px hsl(var(--hsl));
+}
+  
+:not(.overlay) > .card {
+    transition: 400ms background ease;
+    will-change: background;
+}
+  
+:not(.overlay) > .card:hover {
+    --lightness: 95%;
+    background: hsla(var(--hsl), 0.1);
+}
