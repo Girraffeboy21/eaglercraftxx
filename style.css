@@ -11,6 +11,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    /* background-color: #212121; */
     background-color: #212121;
 
 }
@@ -77,14 +78,6 @@ ul {
     list-style: none;
 }
 
-:root {
-    --clr-1: #052b2f;
-    --clr-2: #073438;
-    --clr-3: #0e4b50;
-    --clr-4: #2d8f85;
-    --clr-5: #637c54;
-  }
-
 
 .cards {
     margin-top: 50px;
@@ -128,7 +121,7 @@ ul {
     align-items: start;
     gap: 1.25em;
     color: #eceff1;
-    background-color: #2b2b2b;
+    background-color: #212121;
     border: 1px solid #eceff133;
     border-radius: 15px;
 }
