@@ -146,6 +146,7 @@ ul {
   
 .card__bullets {
     line-height: 1.4;
+    text-align: center;
 }
   
 .card__bullets li::before {
@@ -158,6 +159,7 @@ ul {
 .card__heading {
     font-size: 1.05em;
     font-weight: 600;
+    text-align: center;
 }
   
 .card__price {
@@ -172,7 +174,7 @@ ul {
 .cta {
     display: block;
     align-self: end;
-    margin: 1em 0 0.5em 0;
+    margin: 1em 1 0.5em 0;
     text-align: center;
     text-decoration: none;
     color: #fff;
