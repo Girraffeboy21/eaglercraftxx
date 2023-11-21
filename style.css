@@ -16,62 +16,131 @@ body {
 
 }
 
-.navbar {
-    background-color: #212121; /* Set background to white */
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
-    border: 1px solid #eceff133;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
 }
 
-.navbar a {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff; /* Set text color to black */
+a {
     text-decoration: none;
-    position: relative;
-    margin: 0 15px; /* Add margin to space out top links */
+    color: white;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -1px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    user-select: none;
 }
 
-
-
-/* Add this animation */
-.nav-buttons a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    background-color: #ffffff; /* Set underline color to black */
-    transform: scaleX(0); /* Initial scale to 0 */
-    transform-origin: center;
-    transition: transform 0.3s ease; /* Animation duration and easing */
+.spacer {
+    margin: 0 10px 0 5px;
+    width: 3px;
+    height: 70%;
+    border-radius: 5px;
+    background-color: #00000021;
 }
 
-.navbar a:hover::after {
-    transform: scaleX(1); /* Scale to 100% on hover */
-}
-
-/* Logo styles */
 .logo {
-    font-size: 31px;
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-    margin-right: auto; /* Push logo to the left */
-}
-
-/* Menu container */
-.nav-buttons {
+    margin: 0;
+    padding: 0 10px 0 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
+.logo img {
+    margin: 0 0 0 30px;
+    padding: 0;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 35px;
+}
 
-.nav-buttons a:hover {
-    color: #969494;
+.logo h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #ffffff
+}
+
+.navElements {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 10px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.navElements li {
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.navElements li:hover {
+    background-color: #3e3e3e;
+    transition: 0.2s all ease-in-out;
+}
+
+.navElements li:active {
+    background-color: #1e1e1e;
+    transition: 0.2s all ease-in-out;
+}
+
+.navElements li > svg {
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all ease-in-out;
+}
+
+.button:hover {
+    background-color: #3e3e3e;
+    transition: 0.2s all ease-in-out;
+}
+
+.button:active {
+    background-color: #1e1e1e;
+    transition: 0.2s all ease-in-out;
+}
+
+.button svg {
+    width: 18px;
+    height: auto;
 }
 
 ul {
