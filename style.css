@@ -115,8 +115,8 @@ a {
 }
 
 .button {
-    border-radius: 30px;
-    background-color: transparent;
+    border-radius: 6px;
+    background-color: #5865f2;
     border: none;
     outline: none;
     cursor: pointer;
