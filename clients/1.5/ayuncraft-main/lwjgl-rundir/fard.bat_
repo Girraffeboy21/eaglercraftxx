@@ -1,0 +1,4 @@
+for /R %%A in (*.ogg) do (
+ffmpeg -i "%%A" "%%~dpnA.mp3"
+del "%%A"
+)
