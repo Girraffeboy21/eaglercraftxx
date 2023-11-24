@@ -181,7 +181,7 @@ ul {
   }
   
 .card {
-    --flow-space: 0.5em;
+    --flow-space: 0.5em;A
     --hsl: var(--hue), var(--saturation), var(--lightness);
     flex: 1 1 14rem;
     padding: 1.5em 2em;
