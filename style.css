@@ -343,3 +343,22 @@ ul {
     border: 2px solid #2e2e2e;
     height: 50px;
 }
+
+/* text */
+.text2 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: match-parent;
+    color: whitesmoke;
+}
+
+.text3 {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: match-parent;
+    color: whitesmoke;
+}
+
+.hr2 {
+    width: 100px;
+}
