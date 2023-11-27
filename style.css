@@ -56,7 +56,7 @@ a {
 .nav {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 1346px;
     height: 60px;
     background-color: #2e2e2e;
     display: flex;
@@ -361,4 +361,34 @@ ul {
 
 .hr2 {
     width: 100px;
+}
+
+/* tooltip */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* card heading X */
+
+.card__heading2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card__heading3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
