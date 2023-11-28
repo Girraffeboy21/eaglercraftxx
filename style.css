@@ -381,3 +381,19 @@ ul {
 .game_card {
     background-image: url("/assets/discord.png");
 }
+
+/* blogs */ 
+
+.h1a {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.h1b {
+    color: whitesmoke;
+}
+
+.h1l { /* list */
+    font-size: 25px;
+    color: whitesmoke;
+}
