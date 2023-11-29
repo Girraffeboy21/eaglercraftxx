@@ -35,7 +35,31 @@
   </nav>
 </head>
 
+
 <body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        var copyLinks = document.querySelectorAll('.cta');
+    
+        copyLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                var serverIP = link.getAttribute('data-ip');
+    
+                var textarea = document.createElement('textarea');
+                textarea.value = serverIP;
+                document.body.appendChild(textarea);
+    
+
+                textarea.select();
+                document.execCommand('copy');
+
+                document.body.removeChild(textarea);
+    
+            });
+        });
+    });
+    </script>
 <main class="cards">
   <h1 class="cards__heading">Servers</h1>   
   <div class="cards cards">
@@ -48,7 +72,7 @@
               <li>wss://mc.arch.lol</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://mc.arch.lol">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -58,7 +82,7 @@
               <li>wss://zentic.cc</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://zentic.cc">Copy IP</a>
           </div>
           
           <div class="cards__card card">
@@ -68,7 +92,7 @@
               <li>wss://aeon-network.net/1.8</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://aeon-network.net/1.8">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -78,7 +102,7 @@
               <li>wss://legxndsmp.minecraft.pe</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://legxndsmp.minecraft.pe">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -88,7 +112,7 @@
               <li>wss://ggsmp.net/</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://ggsmp.net/">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -98,7 +122,7 @@
               <li>wss://verise.repl.co/</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://verise.repl.co/">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -108,7 +132,7 @@
               <li>wss://play.craftclue.rocks</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://play.craftclue.rocks">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -118,7 +142,7 @@
               <li>wss://asianf4rmer.minecraft.pe</li>
               <br>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://asianf4rmer.minecraft.pe">Copy IP</a>
           </div>
 
           <div class="cards__card card">
@@ -127,7 +151,7 @@
               <h4>1.8 Server IP</h4>
               <li>wss://sus.shhnowisnottheti.me</li>
             </ul>
-            <a href="" class="card__cta cta">Copy IP</a>
+            <a href="" class="card__cta cta" id="copyIP2" data-ip="wss://sus.shhnowisnottheti.me">Copy IP</a>
           </div>
 
 
