@@ -402,3 +402,17 @@ ul {
     height: 75px;
     width: 100px;
 }
+
+.notify {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: -10px 10px 10px 10px #000;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #2e2e2e;
+    width: 250px;
+    height: 100px;
+}
