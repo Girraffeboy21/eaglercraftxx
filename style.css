@@ -401,6 +401,7 @@ ul {
 .imgT {
     height: 75px;
     width: 100px;
+    margin: auto;
 }
 
 .notify {
