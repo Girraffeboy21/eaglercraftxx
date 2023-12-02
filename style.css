@@ -406,7 +406,10 @@ ul {
 .notify {
     position: absolute;
     margin-left: 10px;
-    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-top: 75px;
     box-shadow: -10px 10px 10px 10px #000;
     line-height: 100px;
     text-align: center;
