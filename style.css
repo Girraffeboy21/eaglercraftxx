@@ -398,12 +398,6 @@ ul {
     color: whitesmoke;
 }
 
-.imgT {
-    height: 75px;
-    width: 100px;
-    margin: auto;
-}
-
 .notify {
     position: absolute;
     margin-left: 10px;
@@ -419,4 +413,12 @@ ul {
     background-color: #2e2e2e;
     width: 250px;
     height: 100px;
+}
+
+/* texture packs */
+
+.imgB {
+    height: 150px;
+    width: 250px;
+    margin: auto;
 }
