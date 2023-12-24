@@ -422,3 +422,38 @@ ul {
     width: 250px;
     margin: auto;
 }
+
+/* button 2 */ 
+
+.button2 {
+    border-radius: 6px;
+    background-color: #212121;
+    outline: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all ease-in-out;
+}
+
+.button2:hover {
+    outline: none;
+    background-color: #3e3e3e;
+    transition: 0.2s all ease-in-out;
+}
+
+.button2:active {
+    outline: none;
+    background-color: #1e1e1e;
+    transition: 0.2s all ease-in-out;
+}
+
+.button2 svg {
+    outline: none;
+    width: 18px;
+    height: auto;
+}
