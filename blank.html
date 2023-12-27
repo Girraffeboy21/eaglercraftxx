@@ -72,45 +72,37 @@
           </a>
       </div>
   </nav>
+
+  <script src="https://cdn.jsdelivr.net/gh/FogNetwork/ABC/index.js"></script>
+  <script>
+    function validURL(str) {
+  var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
+    '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
+    '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+    '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+    '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+    '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+  return !!pattern.test(str);
+}
+    function go() {
+      var page = new ABC({
+        "type": "blank",
+        "url": validURL(document.querySelector('input').value) ? document.querySelector('input').value : window.location.origin
+      })
+      page.open()
+    }
+  </script>
 </head>
 
-<body>
-  <main class="cards">
-    <h1 class="cards__heading">Home</h1>
-    <div class="cards cards">
-      <div class="cards__inner">
-        <div class="cards__card card">
-          <h2 class="card__heading">Announcements</h2>
-          <ul role="list" class="card__bullets flow"> 
-            <li>Site Recoded</li>
-          </ul>
-        </div>
+<div class="cards">
+    <h1 class="cards__heading">about:blank site loader</h1>
+</div>
 
-        <div class="cards__card card">
-          <h2 class="card__heading">Updates</h2>
-          <ul role="list" class="card__bullets flow">
-            <li>Check the discord for updates!</li>
-          </ul>        
-        </div> 
-        
-        <div class="cards__card card">
-          <h2 class="card__heading">Other Links</h2>
-          <ul role="list" class="card__bullets flow">
-            <li><a href="https://eaglercrackx.vercel.app"><strong>vercel 1</strong></a></li>
-            <li><a href="https://eaglercrack.vercel.app"><strong>vercel 2</strong></a></li>
-            <li><a href="https://eaglercracks.vercel.app"><strong>vercel 3</strong></a></li> 
-            <li><a href="https://resentlauncher.vercel.app"><strong>vercel 4</strong></a></li>
-            <li><a href="https://eaglercrackx.netlify.app"><strong>netlify 1</strong></a></li>
-            <li><a href="https://eaglercracker.netlify.app"><strong>netlify 2</strong></a></li>
-            <li><a href="https://sites.google.com/view/eaglercrack"><strong>google site 1</strong></a></li>
-            <li><a href="https://sites.google.com/view/eaglercrackx"><strong>google site 2</strong></a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="overlay cards__inner"></div>
-    </div>
-  </main>
-  
+<div class="main" style="text-align: center;">
+    <input type="url" onkeydown="if(event.key==='Enter') go()" size="25" autofocus>
+    <button onclick="go()">Go</button><br>
+  </div>
+
+
 </body>
 </html>
