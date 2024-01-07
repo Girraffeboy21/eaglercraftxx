@@ -385,11 +385,24 @@ ul {
 /* blogs */ 
 
 .h1a {
+    font-size: 50px;
     color: whitesmoke;
     text-align: center;
 }
 
 .h1b {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.h1c {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.h1d {
+    text-align: center;
+    font-size: 30px;
     color: whitesmoke;
 }
 
@@ -401,7 +414,6 @@ ul {
 .notify {
     position: absolute;
     margin-left: 10px;
-    position: fixed;
     top: 0;
     z-index: 1;
     margin-top: 75px;
