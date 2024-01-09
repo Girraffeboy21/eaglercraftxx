@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="/style.css">
     <title>EaglercrackX</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    
+</head>
+<body>
     <nav class="nav">
         <div class="logo">
             <img src="/assets/eaglercraft.jpg" alt="Logo">
@@ -30,7 +31,6 @@
                 <a href="/more.html">More...</a>
             </li>
         </ul>
-        
         <div style="margin: 0 30px 0 0;">
             <a class="button" href="https://discord.gg/qAbTAAv6dU">
                 Join the Discord
@@ -54,9 +54,14 @@
     <br>
     <br>
     <br>
-    <script type="text/javascript" src="embed.js"></script>
+    <div id="embed" class="server-embed"></div>
+
+    <script type="text/javascript" src="/servers/embed.js"></script>
     <script type="text/javascript">
         function go() {
+            // Clear existing content in the embed container
+            document.getElementById("embed").innerHTML = "";
+
             var userInput = document.getElementById("serverInput").value;
             new ServerEmbed(document.getElementById("embed"), "50%").ping(userInput);
         }
@@ -65,12 +70,5 @@
             go();
         });
     </script>
-</head>
-<body>
-    <div id="embed" class="server-embed"></div>
 </body>
 </html>
-
-
-
-<!--    (Server Embed Credit:  https://github.com/lax1dude/eaglercraft-HTML5_Ping_Embed)       -->
