@@ -416,6 +416,13 @@ ul {
     color: whitesmoke;
 }
 
+.h1p { /* center h1b */
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
 .notify {
     position: absolute;
     margin-left: 10px;
@@ -517,4 +524,34 @@ ul {
 
 .server-embed {
     margin: auto;
+}
+
+/* buttonI */
+.buttonI {
+    border-radius: 6px;
+    background-color: #5865f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all ease-in-out;
+}
+
+.buttonI:hover {
+    background-color: #3e3e3e;
+    transition: 0.2s all ease-in-out;
+}
+
+.buttonI:active {
+    background-color: #1e1e1e;
+    transition: 0.2s all ease-in-out;
+}
+
+.buttonI svg {
+    width: 18px;
+    height: auto;
 }
