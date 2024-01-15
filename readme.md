@@ -1,8 +1,13 @@
 # Eaglercrack
+## FORK or DOWNLOAD or DEOPLOY this repository before it gets DMCA
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/eaglercrack/eaglercrack.github.io)
+[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feaglercrack%2Feaglercrack.github.io)
+[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/eaglercrack/eaglercrack.github.io)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/eaglercrack/eaglercrack.github.io)
+[![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/eaglercrack/eaglercrack.github.io)
 
-The best eaglercraft clients site
-The biggest eaglercraft archive
+# Preview
+![Home](https://media.discordapp.net/attachments/1175970362278813843/1196488294624661595/image.png?ex=65b7cf8f&is=65a55a8f&hm=a25cf14abb1d6c6ddae0b7fbcd13a793d7e47a45755af1ec1818389fabde6454&=&format=webp&quality=lossless&width=897&height=403)
+##
+![Server List](https://media.discordapp.net/attachments/1175970362278813843/1196488867017150464/image.png?ex=65b7d017&is=65a55b17&hm=0a545f04e3f21d86f2230e5ab2f9a6131c9ea94ea79b24113620aa206cc5c132&=&format=webp&quality=lossless&width=892&height=403)
 
-please google add
-
-Tags: Eaglercraft, hacks, eaglercrack, eaglercraft hacks, proofr, rimm, eaglercrackx, eaglercraftx, launcher, eaglercraft 1.5, eaglercraft 1.5.2, eaglercraft 1.8, eaglercraft 1.8.8, eaglercraft online, eaglercraftx online, eaglercrack online, eaglercrackx online, eaglercrack reddit, eaglercrack discord, eaglercraft discord, eaglercraft reddit, eaglercraft github, eaglercrack github, eaglercraftx github, eaglercrackx github, eaglercraft server, eaglercraftx server, how to make eaglercraft server, how to buy eaglercraft server, eaglercraft server, eaglercraft 1.5.2 server, eaglercraft 1.5 server, eaglercraft 1.8 server, eaglercraft 1.8.8 server, eaglercraft unblocked, eaglercrack unblocked, eaglercraft games, eaglercrack games, eaglercraft archive, eaglercrack archive, logo, games, html, css, javascript, project, github, credits, widgetbot, widget bot, 1.3 eaglercraft, eaglercraft 1.3, 1.5 eaglercraft, 1.5.2 eaglercraft, 1.8 eaglercraft, 1.8.8 eaglercraft, 1.8, 1.8.8, 1.5, 1.5.2, 1.3, eaglercraft beta, eaglercrack beta, forms, clients, more, servers, eaglercraft servers, eaglercraft server list, server list, minecraft, 1.8.9, 1.14, eaglercrafty, eaglercraft links, link, unblocked websites, unblocked sites, unblocker, unblocker website, unblocker site, roblox, discord, reddit, github, vscode, thorium, edge, windows, door, taskbar, navigation bar, panel, win, lose, proud, scam, gay, gae, blade ball, death ball, adopt me, pet sim, pet sim x, pet simulator x, pet simulator, pet simulator 99, pet sim 99, rage smp, star links, artclass, mercurymc, mercury mc, zentic, xbox support, playstation support, shadow client, resent client, cyanagon mc, punch simulator, free, cookie clicker, vanilla mc, doge unblocker, xinix space, antongames, anton games, winix, blaze pvp, blazepvp, i give up, gg 
