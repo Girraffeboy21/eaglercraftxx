@@ -209,7 +209,7 @@ ul {
   }
   
 .card {
-    --flow-space: 0.5em;A
+    --flow-space: 0.5em;
     --hsl: var(--hue), var(--saturation), var(--lightness);
     flex: 1 1 14rem;
     padding: 1.5em 2em;
@@ -555,3 +555,158 @@ ul {
     width: 18px;
     height: auto;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax width as needed */
+    gap: 20px;
+    justify-content: center; /* Center-align the boxes */
+    align-items: center;
+    margin: 50px;
+}
+
+.box {
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 15px;
+    padding: 1.5em;
+    display: grid;
+    grid-template-rows: auto auto 1fr; /* Updated grid-template-rows */
+    gap: 0.5em; /* Adjust gap as needed */
+    color: white;
+    border: 2px solid #00000036;
+    box-shadow: #000000 ;
+}
+
+.title1 {
+    color: rgb(162, 72, 185);
+}
+
+.title2 {
+    color: rgb(185, 72, 72);
+}
+
+.title3 {
+    color: yellow;
+}
+.title4 {
+    color: rgb(197, 182, 42);
+}
+.title5 {
+    color: green;
+}
+.title6 {
+    color: blue;
+}
+
+.title7 {
+    color: royalblue;
+}
+
+.title8 {
+    color: darkorange;
+}
+
+.title9 {
+    color: deeppink;
+}
+
+.title10 {
+    color: royalblue;
+}
+
+.title11 {
+    color: darkorange;
+}
+
+.title12 {
+    color: deeppink;
+}
+
+.title13 {
+    color: royalblue;
+}
+
+.title14 {
+    color: darkorange;
+}
+
+.title15 {
+    color: deeppink;
+}
+.title16 {
+    color: royalblue;
+}
+
+.title17 {
+    color: darkorange;
+}
+
+.title18 {
+    color: deeppink;
+}
+.title19 {
+    color: royalblue;
+}
+
+.ip {
+    display: grid;
+    place-items: center; /* Center-align the IP */
+    margin-top: 1em; /* Add some spacing between IP and status */
+    background-color: #262626; /* Set your desired background color */
+    border-radius: 6px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding for better styling */
+    color: white; /* Set text color */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.ip4 {
+    margin-top: 32px;
+}
+.ip6 {
+    margin-top: 32px
+}
+
+.ip7 {
+    margin-top: 32px;
+}
+
+.ip8 {
+    margin-top: 32px;
+}
+
+.ip9 {
+    margin-top: 32px;
+}
+
+.ip10 {
+    margin-top: 32px;
+}
+
+
+
+
+/* Your existing styles */
+
+.status {
+    margin-bottom: 0.5em;
+    width: fit-content;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #262626;
+    color: white;
+}
+
+/* Continue with your other styles */
+
+
+
+
+
+
+.description {
+    display: grid;
+    place-items: start; /* Align the description to the left */
+}
+
