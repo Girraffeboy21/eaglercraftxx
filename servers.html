@@ -109,6 +109,7 @@
       const status17 = document.querySelector(".status17");
       const status18 = document.querySelector(".status18");
       const status19 = document.querySelector(".status19");
+      const status20 = document.querySelector(".status20")
 
       checkServerStatus("zentic.cc", status1);
       checkServerStatus("mc.arch.lol", status2);
@@ -129,6 +130,7 @@
       checkServerStatus("", status17);
       checkServerStatus("", status18);
       checkServerStatus("", status19);
+      checkServerStatus("", status20);
 
       document.querySelector(".ip1").addEventListener("click", function () {
         copyIP("wss://zentic.cc");
@@ -186,6 +188,9 @@
       });
       document.querySelector(".ip19").addEventListener("click", function() {
         copyIP("wss://mcus1.dxomg.link")
+      })
+      document.querySelector(".ip20").addEventListener("click", function() {
+        copyIP("wss://mc.gmod9.com/wssconnect")
       })
     };
   </script>
@@ -306,10 +311,16 @@
       <div class="ip ip18" onclick="copyIP()">Copy IP</div>
     </div>
     <div class="box box19">
-      <div class="title title19">Dxmong Proxy</div>
+      <div class="title title19">Dxomg Proxy</div>
       <div class="status status19"></div>
       <div class="description description19">Proxy to join cracked java servers</div>
       <div class="ip ip19" onclick="copyIP()">Copy IP</div>
+    </div>
+    <div class="box box20">
+      <div class="title title20">Gmod9 anarchy</div>
+      <div class="status status20"></div>
+      <div class="description description20">Anarchy</div>
+      <div class="ip ip20" onclick="copyIP()">Copy IP</div>
     </div>
 
   </div>
