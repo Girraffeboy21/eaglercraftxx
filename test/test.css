@@ -135,13 +135,6 @@ a {
     transition: 0.2s all ease-in-out;
 }
 
-.navElements li > a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
-}
-
 .navElements li > svg {
     font-size: 20px;
 }
@@ -578,9 +571,10 @@ ul {
     border-radius: 15px;
     padding: 1.5em;
     display: grid;
-    grid-template-rows: auto auto 1fr; /* Updated grid-template-rows */
-    gap: 0.5em; /* Adjust gap as needed */
+    grid-template-rows: auto auto 1fr;
+    gap: 0.5em;
     color: white;
+    background: #212121;
     border: 2px solid #00000036;
     box-shadow: #000000 ;
 }
@@ -658,13 +652,13 @@ ul {
 
 .ip {
     display: grid;
-    place-items: center; /* Center-align the IP */
-    margin-top: 1em; /* Add some spacing between IP and status */
-    background-color: #262626; /* Set your desired background color */
-    border-radius: 6px; /* Add border-radius for rounded corners */
-    padding: 10px; /* Add padding for better styling */
-    color: white; /* Set text color */
-    cursor: pointer; /* Change cursor to indicate it's clickable */
+    place-items: center; 
+    margin-top: 1em; 
+    background-color: #262626; 
+    border-radius: 6px; 
+    padding: 10px; 
+    color: white; 
+    cursor: pointer; 
 }
 
 .ip4 {
@@ -693,7 +687,7 @@ ul {
 
 
 
-/* Your existing styles */
+
 
 .status {
     margin-bottom: 0.5em;
@@ -705,8 +699,6 @@ ul {
     color: white;
 }
 
-/* Continue with your other styles */
-
 
 
 
@@ -714,12 +706,20 @@ ul {
 
 .description {
     display: grid;
-    place-items: start; /* Align the description to the left */
+    place-items: start; 
 }
 
 
 
-/* thanks w3schools */
+
+
+
+
+
+
+
+
+/* credit w3schools */
 
 .modal {
     display: none; /* Hidden by default */
@@ -738,10 +738,11 @@ ul {
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #222222;
     margin: auto;
-    padding: 0;
-    border: 1px solid #888;
+    padding: 15px;
+    border: 1px solid #eceff133;
+    border-radius: 15px;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -778,15 +779,49 @@ ul {
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #222222;
     color: white;
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {
+    padding: 2px 16px;
+}
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #222222;
     color: white;
   }
 
+
+
+  /* goodbye w3schools */
+
+
+
+
+  /* thanks chatgpt */
+  .card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card__heading {
+    flex-grow: 1;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .fa-image {
+    font-size: 1.5em;
+    color: #ddd;
+  }
+
+  .buttonTest {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }

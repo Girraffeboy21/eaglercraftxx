@@ -41,8 +41,67 @@
 </head>
 
 <body>
+  <main class="cards">
+    <h1 class="cards__heading">1.5 Clients</h1>
+    <div class="cards cards">
+      <div class="cards__inner">
+<!-- Start -->
+<div class="cards__card card">
+    <div class="card__header">
+      <h2 class="card__heading">FuchsiaX</h2>
+      <a id="Modal1" class="buttonTest"><i class="fa-solid fa-image"></i></a>
+    </div>
+    <ul role="list" class="card__bullets flow">
+      <li>Version: C.M.M's-Fuchsia-X-Client</li>
+    </ul>
+    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
+    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+  </div>  
+  <!-- End -->  
 
-  
 
-</body>
+<div id="myModal" class="modal">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 class="h1a">Downloads For {Client}</h2>
+      </div>
+      <div class="modal-body">
+        <br>
+        <br>
+        <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+        <br>
+        <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.5/fuchsiax.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+        <br>
+        <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" style="margin-right: 500px;"><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+        <br>
+      </div>
+    </div>
+
+<script>
+    // credit w3schools 
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("Modal1");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+
+
+      <div class="overlay cards__inner"></div>
+    </div>
+  </main>
+  </body>
 </html>
