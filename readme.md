@@ -9,5 +9,5 @@
 # Preview
 ![Home](https://media.discordapp.net/attachments/1175970362278813843/1196488294624661595/image.png?ex=65b7cf8f&is=65a55a8f&hm=a25cf14abb1d6c6ddae0b7fbcd13a793d7e47a45755af1ec1818389fabde6454&=&format=webp&quality=lossless&width=897&height=403)
 ##
-![Server List](https://media.discordapp.net/attachments/1175970362278813843/1196488867017150464/image.png?ex=65b7d017&is=65a55b17&hm=0a545f04e3f21d86f2230e5ab2f9a6131c9ea94ea79b24113620aa206cc5c132&=&format=webp&quality=lossless&width=892&height=403)
+![Server List](https://media.discordapp.net/attachments/1175970362278813843/1197255121885733065/image.png?ex=65ba99b8&is=65a824b8&hm=b32d6af5caa839b5c220afeeda297221c56f509eaad7548b9c142de8bf698b2d&=&format=webp&quality=lossless&width=881&height=403)
 
